@@ -10,6 +10,7 @@
     "adoptme-web": "turbo dev --filter=web"
   },
   "devDependencies": {
+    "@types/papaparse": "^5.3.16",
     "prettier": "^3.6.2",
     "turbo": "^2.5.6",
     "typescript": "5.9.2"
@@ -21,5 +22,8 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "papaparse": "^5.5.3"
+  }
 }
