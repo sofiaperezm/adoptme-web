@@ -1,0 +1,1 @@
+export type AnimalDTO=Record<string, string>
